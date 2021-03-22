@@ -9,7 +9,8 @@
     "cypress": "6.4.0"
   },
   "scripts": {
-    "cypress": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.4.0",
+    "cp:docker": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.4.0",
+    "cp:docker:interactvie": "DISPLAY=$IP:0 && docker run -it --rm --network host -v ~/.Xauthority:/root/.Xauthority:ro -e DISPLAY -v $PWD:/e2e -w /e2e --entrypoint '' cypress/included:6.4.0 npx cypress open",
     "cypress:local": "node_modules/.bin/cypress open"
   }
 }
