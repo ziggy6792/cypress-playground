@@ -6,9 +6,9 @@
   "author": "simon-verhoeven <simonaverhoeven@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "cypress": "^6.8.0"
+    "cypress": "6.4.0"
   },
   "scripts": {
-    "cypress": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.8.0"
+    "cypress": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.4.0"
   }
 }
