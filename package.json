@@ -9,6 +9,7 @@
     "cypress": "6.4.0"
   },
   "scripts": {
-    "cypress": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.4.0"
+    "cypress": "docker run -it -v $PWD:/e2e -w /e2e cypress/included:6.4.0",
+    "cypress:local": "node_modules/.bin/cypress open"
   }
 }
