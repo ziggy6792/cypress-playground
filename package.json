@@ -1,0 +1,11 @@
+{
+  "name": "cypress-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ziggy6792/cypress-playground.git",
+  "author": "simon-verhoeven <simonaverhoeven@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^6.8.0"
+  }
+}
